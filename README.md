@@ -1,4 +1,4 @@
-CoinPayments.net plugin for WHMCS.
+# CoinPayments.net plugin for WHMCS
 For license details see license.txt
 
 Installation Instructions:
