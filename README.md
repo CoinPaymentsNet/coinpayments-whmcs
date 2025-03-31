@@ -1,4 +1,7 @@
 # CoinPayments.net plugin for WHMCS
+
+> NOTICE: Migrated to [CoinPaymentsNet/plugin-whmcs](https://github.com/CoinPaymentsNet/plugin-whmcs).
+
 For license details see license.txt
 
 Installation Instructions:
