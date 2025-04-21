@@ -27,8 +27,8 @@ function coinpayments_link($params) {
 		'last_name' => $params['clientdetails']['lastname'],
 		'want_shipping' => $params['coinpayments_want_shipping'] ? '1':'0',
 		'ipn_url' => $params['systemurl'].'/modules/gateways/callback/coinpayments.php',
-		'success_url' => $params['systemurl'],
-		'cancel_url' => $params['systemurl'],
+		'success_url' => $params['systemurl'].'viewinvoice.php?id='.$params['invoiceid'].'&paymentsuccess=true',
+		'cancel_url' => $params['systemurl'].'viewinvoice.php?id='.$params['invoiceid'].'&paymentfailed=true',
 	);
 	
 	if ($params['coinpayments_want_shipping']) {
